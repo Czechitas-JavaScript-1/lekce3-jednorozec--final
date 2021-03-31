@@ -1,0 +1,49 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i&subset=latin-ext');
+
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+
+body {
+	margin: 0;
+	padding: 50px;
+	font: 18px/1.5 "Merriweather", sans-serif;
+	background: white url("obrazky/pozadi.png") repeat;
+	color: black;
+}
+
+h1 {
+	position: absolute;
+	top: 30px;
+	left: 543px;
+	transform: translateX(-50%);
+	text-align: center;
+	line-height: 1.1;
+	color: rebeccapurple;
+}
+
+h1 span {
+	color:violet ;
+}
+
+#plot1 {
+	position: absolute;
+	left: 300px;
+	top: 200px;
+	z-index: -1;
+}
+
+#plot2 {
+	position: absolute;
+	left: 300px;
+	top: 360px;
+	z-index: 1;
+}
+
+#jednorozec {
+	width: 200px;
+	position: absolute;
+	top: 250px;
+}
